@@ -1,0 +1,271 @@
+body {
+  /*background-color: #e0f2fc;*/
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body * {
+  box-sizing: border-box;
+}
+button.link {
+   background:none;border:none;
+  }
+.header {
+  background-color: #6372ff; /*a9c056;*/
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: white;
+  font-size: 1.5em;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+img {
+  height: 60px;
+  width: 60px;
+}
+.table-users {
+  border: 1px solid #3fb1eb;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+table {
+  width: 100%;
+}
+table td, table th {
+  color: black;
+  padding: 10px;
+}
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+table td:last-child {
+  font-size: 0.95em;
+  line-height: 1.4;
+  text-align: left;
+}
+table th {
+  background-color: #fff;
+  font-weight: 300;
+}
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #fff;
+}
+@media screen and (max-width: 700px) {
+  table, tr, td {
+    display: block;
+  }
+  td:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+  }
+  td:not(:first-child) {
+    clear: both;
+    margin-left: 100px;
+    padding: 4px 20px 4px 90px;
+    position: relative;
+    text-align: left;
+  }
+  td:not(:first-child):before {
+    color: #e0f2fc;
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+  }
+  tr {
+    padding: 10px 0;
+    position: relative;
+  }
+  tr:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    background-color: transparent;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  }
+  img {
+    border: 3px solid;
+    border-color: #fff;
+    height: 100px;
+    margin: 0.5rem 0;
+    width: 100px;
+  }
+  td:first-child {
+    background-color: #fff;
+    border-bottom: 1px solid #e0f2fc;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+  }
+  td:not(:first-child) {
+    margin: 0;
+    padding: 5px 1em;
+    width: 100%;
+  }
+  td:not(:first-child):before {
+    font-size: 0.8em;
+    padding-top: 0.3em;
+    position: relative;
+  }
+  td:last-child {
+    padding-bottom: 1rem !important;
+  }
+  tr {
+    background-color: white !important;
+    border: 1px solid #b2e0f7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+    padding: 0;
+  }
+  .table-users {
+    border: none;
+    box-shadow: none;
+    overflow: visible;
+  }
+}
+
+td {
+text-align: left;
+}
+
+/*blue button for completing the transaction*/
+input[type=button], input[type=submit], input[type=reset]  {
+  background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*red button fot dispute*/
+input[type=reset]  {
+  background: #ed213a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ed213a, #93291e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ed213a, #93291e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+input[type=submit]:hover, input[type=reset]:hover  {
+  background-color: #39ace7;
+}
+
+input[type=submit]:active, input[type=reset]:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.footerbuttons {
+  background-color: #6372ff; /*a9c056;*/
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
+
+.tabletext {
+  color: #f8f8f8; font-family: 'Raleway',sans-serif; font-size: 15px; font-weight: 50; line-height: 15px;
+}
+
+
+/* Footer Section*/
+#footer {
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center
+}
+#footer p {
+	color: #888;
+	font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+
+}
+#footer a {
+	color: #608dfd;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: #608dfd;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  display:inline-block;
+}
+
+.form_123 {
+  background-color: #6372ff; /*a9c056;*/
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+}
