@@ -36,3 +36,16 @@ Edit database login details (var con), email and password (var email_address, va
 Change ports to listen on the bottom (use 80 for http and 443 for https, is you are using linux server).
 
 Run `npm dev run` command.
+
+---
+
+THIS IS NOT FOR COMMERCIAL USE!!! YOU ARE NOT ALLOWED TO COPY, SELL, USE ANY PART OF THIS SOFTWARE FOR ANY MATERIAL GAINS OR COMMERCIAL USE!!!
+
+---
+
+If you want commercial licence, contact admin@fbslo.net. 
+Price: $100 per year.
+
+---
+
+This is beta version. There are still bugs in the code, be careful.
