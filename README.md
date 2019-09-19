@@ -39,6 +39,13 @@ Run `npm dev run` command.
 
 ---
 
+TODO:
+- Add admin control dashboard
+- Fix possible SQL injection vulnerabilities
+
+
+---
+
 THIS IS NOT FOR COMMERCIAL USE!!! YOU ARE NOT ALLOWED TO COPY, SELL, USE ANY PART OF THIS SOFTWARE FOR ANY MATERIAL GAINS OR COMMERCIAL USE!!!
 
 ---
