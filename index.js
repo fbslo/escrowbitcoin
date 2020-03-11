@@ -41,7 +41,7 @@ var balance = require('crypto-balances');
 var multer = require('multer');
 var request = require('request');
 
-const export_complete_transaction = require("./completeTransaction")
+//const export_complete_transaction = require("./completeTransaction")
 
 //get Date & time
 var currentdate = new Date();
