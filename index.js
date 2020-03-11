@@ -849,8 +849,10 @@ app.get('/transaction-payment-details', (req, res) => {
   });
 });
 
+var post_2 = 80
+app.listen(port_2, () => console.log(`Example app listening on port ${port_2}!`))
 
-// we will pass our 'app' to 'https' server
+/* we will pass our 'app' to 'https' server
 https.createServer({
     key: fs.readFileSync('./key.pem'),
     cert: fs.readFileSync('./cert.pem')
@@ -863,7 +865,7 @@ var http = require('http');
 http.createServer(function (req, res) {
     res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
     res.end();
-}).listen(port_http);
+}).listen(port_http);*/
 
 setInterval(() => {
     con.query('SELECT 1', (err, results) => {})
