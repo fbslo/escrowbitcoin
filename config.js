@@ -2,7 +2,7 @@ var nodemailer = require('nodemailer');
 
 //variables
 var email_address = 'no-reply@escrowbitcoin.net'
-var email_password = 'escrowbitcoingeslo123'
+var email_password = 'email-password'
 
 /*create nodemailer transporter
 var transporter = nodemailer.createTransport({
