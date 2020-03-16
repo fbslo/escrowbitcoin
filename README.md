@@ -1,7 +1,11 @@
 # EscrowBitcoin.net
 Bitcoin escrow service
 
-(c) fbslo, 2019
+(c) fbslo, 2019/2020
+
+---
+
+<h1>THIS PROJECT HAVE MANY BUGS AND IT SHOULD BE REWRITTEN!</h1>
 
 ---
 
