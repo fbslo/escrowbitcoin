@@ -45,7 +45,7 @@ Run `npm dev run` command.
 
 TODO:
 - Rewrite entire code (use ejs templates)
-- Add new addresses using deterministic wallet instead of user genrated keys.
+- Add new addresses using deterministic wallet instead of user generated keys.
 - Add admin control dashboard
 - Fix possible SQL injection vulnerabilities
 - Fix XSS vulnerabilities
