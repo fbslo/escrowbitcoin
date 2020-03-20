@@ -1,5 +1,5 @@
 /* ESCROWBITCOIN.NET WEB SERVICE
-(c) fbslo, 2019
+(c) fbslo, 2019 / 2020
 */
 
 /*
@@ -850,7 +850,7 @@ app.get('/transaction-payment-details', (req, res) => {
 });
 
 var port_2 = 5000
-app.listen(port_2, () => console.log(`Example app listening on port ${port_2}!`))
+app.listen(port_2, () => console.log(`EscrowBitcoin app listening on port ${port_2}!`))
 
 /* we will pass our 'app' to 'https' server
 https.createServer({
@@ -867,6 +867,7 @@ http.createServer(function (req, res) {
     res.end();
 }).listen(port_http);*/
 
+//keep the mysql connection alive
 setInterval(() => {
     con.query('SELECT 1', (err, results) => {})
 },5000)
