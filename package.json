@@ -26,7 +26,7 @@
     "nodemailer": "^6.4.8",
     "qrcode": "^1.4.4",
     "request": "^2.88.2",
-    "sweetalert2": "^9.14.2",
+    "sweetalert2": "^9.15.2",
     "wallet-address-validator": "^0.2.4"
   },
   "devDependencies": {
