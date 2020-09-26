@@ -23,7 +23,7 @@
     "https": "^1.0.0",
     "multer": "^1.4.2",
     "mysql": "^2.18.1",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.11",
     "qrcode": "^1.4.4",
     "request": "^2.88.2",
     "sweetalert2": "^10.3.3",
